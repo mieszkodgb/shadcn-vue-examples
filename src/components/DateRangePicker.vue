@@ -12,6 +12,7 @@ import { RangeCalendar } from '@/components/ui/range-calendar'
 import { CalendarDate, DateFormatter, getLocalTimeZone } from '@internationalized/date'
 import { Calendar as CalendarIcon } from 'lucide-vue-next'
 import { ref } from 'vue'
+import type { Ref } from 'vue'
 
 const df = new DateFormatter('en-US', {
   dateStyle: 'medium',
