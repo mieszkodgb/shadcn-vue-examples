@@ -4,7 +4,6 @@ import Homeview from '../views/Homeview.vue'
 import ListView from '../views/Listview.vue'
 import ChartView from '../views/Chartview.vue'
 import SettingView from '../views/Setting.vue'
-
 const routes = [
   { path: '/', name: "home", component: Homeview },
   { path: '/list', name: "list", component: ListView },
